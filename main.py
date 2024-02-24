@@ -5,6 +5,9 @@ def main():
     # Comlete your code here
     ##################################################
 
+    sub1 = original_str[:6] # extract the first suubstring 'Python'
+    sub2 = original_str[7:] # extract the second substring 'Programming'
+    merged_str = sub2 + " " + sub1
     print(sub2)
     print(sub1)
     print(merged_str)
